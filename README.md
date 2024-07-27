@@ -27,12 +27,12 @@ A simple weather application that allows users to search for weather conditions 
     ```bash
     cd weather-app
     ```
-##Usage
+## Usage
 - Enter a location in the search bar.
 - Press enter or click the search icon.
 - View the current weather conditions for the specified location.
 
-##Project Structure
+## Project Structure
 ```sh
 weather-app/
 ├── index.html
@@ -41,8 +41,8 @@ weather-app/
 └── README.md
 ```
 
-##API Key
-- This project uses the OpenWeatherMap API. You need to replace the placeholder API key in app.js with your own API key.
+## API Key
+This project uses the OpenWeatherMap API. You need to replace the placeholder API key in app.js with your own API key.
 ```javascript
 const apiKey = "your_api_key_here";
 ```
