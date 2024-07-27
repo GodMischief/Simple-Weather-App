@@ -33,16 +33,19 @@ A simple weather application that allows users to search for weather conditions 
 - View the current weather conditions for the specified location.
 
 ##Project Structure
-- weather-app/
+```sh
+weather-app/
 ├── index.html
 ├── style.css
 ├── app.js
 └── README.md
+```
 
 ##API Key
 - This project uses the OpenWeatherMap API. You need to replace the placeholder API key in app.js with your own API key.
-
+```javascript
 const apiKey = "your_api_key_here";
+```
 You can get your API key by signing up at OpenWeatherMap.    
 
 ## Contributing
